@@ -1,0 +1,9 @@
+C:\Users\Burkhardt\source\repos\CBAdmin\Enum\bin\Debug\netstandard2.0\Enum.deps.json
+C:\Users\Burkhardt\source\repos\CBAdmin\Enum\bin\Debug\netstandard2.0\Enum.dll
+C:\Users\Burkhardt\source\repos\CBAdmin\Enum\bin\Debug\netstandard2.0\Enum.pdb
+C:\Users\Burkhardt\source\repos\CBAdmin\Enum\obj\Debug\netstandard2.0\Enum.csprojAssemblyReference.cache
+C:\Users\Burkhardt\source\repos\CBAdmin\Enum\obj\Debug\netstandard2.0\Enum.csproj.CoreCompileInputs.cache
+C:\Users\Burkhardt\source\repos\CBAdmin\Enum\obj\Debug\netstandard2.0\Enum.AssemblyInfoInputs.cache
+C:\Users\Burkhardt\source\repos\CBAdmin\Enum\obj\Debug\netstandard2.0\Enum.AssemblyInfo.cs
+C:\Users\Burkhardt\source\repos\CBAdmin\Enum\obj\Debug\netstandard2.0\Enum.dll
+C:\Users\Burkhardt\source\repos\CBAdmin\Enum\obj\Debug\netstandard2.0\Enum.pdb

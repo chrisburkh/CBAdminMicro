@@ -1,0 +1,9 @@
+C:\Users\Burkhardt\source\repos\CBAdmin\Http\bin\Debug\netstandard2.0\Http.deps.json
+C:\Users\Burkhardt\source\repos\CBAdmin\Http\bin\Debug\netstandard2.0\Http.dll
+C:\Users\Burkhardt\source\repos\CBAdmin\Http\obj\Debug\netstandard2.0\Http.csprojAssemblyReference.cache
+C:\Users\Burkhardt\source\repos\CBAdmin\Http\obj\Debug\netstandard2.0\Http.csproj.CoreCompileInputs.cache
+C:\Users\Burkhardt\source\repos\CBAdmin\Http\obj\Debug\netstandard2.0\Http.AssemblyInfoInputs.cache
+C:\Users\Burkhardt\source\repos\CBAdmin\Http\obj\Debug\netstandard2.0\Http.AssemblyInfo.cs
+C:\Users\Burkhardt\source\repos\CBAdmin\Http\bin\Debug\netstandard2.0\Http.pdb
+C:\Users\Burkhardt\source\repos\CBAdmin\Http\obj\Debug\netstandard2.0\Http.dll
+C:\Users\Burkhardt\source\repos\CBAdmin\Http\obj\Debug\netstandard2.0\Http.pdb
