@@ -36,6 +36,8 @@ namespace CBAdmin
             var builder = new ContainerBuilder();
             builder.RegisterInstance<IHttpClient>(new StandardHttpClient());
             services.AddTransient(typeof(IApiService<>), typeof(ApiService<>));
+            services.AddTransient(typeof(IService<>), typeof(Service<>));
+            services.AddTransient<IDatabaseService, DatabaseService>();
 
             builder.Populate(services);
             ApplicationContainer = builder.Build();

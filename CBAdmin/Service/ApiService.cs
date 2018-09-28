@@ -63,5 +63,11 @@ namespace CBAdmin.Service
         {
             _baseUrl = url;
         }
+
+        public async Task<string> GetSystemInformation()
+        {
+            var dataString = await _apiClient.GetStringAsync("http://localhost:8083/api/systemsettings/");
+            return dataString;
+        }
     }
 }

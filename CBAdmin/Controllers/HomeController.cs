@@ -1,4 +1,5 @@
 ﻿using CBAdmin.Models;
+using CBAdmin.Service;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -11,13 +12,41 @@ namespace CBAdmin.Controllers
     public class HomeController : Controller
 
     {
+        private IDatabaseService _databaseService;
 
-        public IActionResult Index()
+        private IApiService<SystemInformation> _apiService;
+
+        public HomeController(IDatabaseService databaseService, IApiService<SystemInformation> apiService)
 
         {
+            _databaseService = databaseService;
+            _apiService = apiService;
+        }
 
-            return View();
 
+        [HttpGet]
+        public async Task<IActionResult> Index()
+        {
+            var info = await _apiService.GetSystemInformation();
+
+            SystemInformation s = new SystemInformation();
+
+            s.Message = info;
+
+            return View(s);
+
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ResetDataBase()
+        {
+            await _databaseService.ResetDatabase();
+
+            Console.WriteLine("finished");
+
+            //throw new Exception("test");
+
+            return RedirectToAction("Index");
         }
 
 

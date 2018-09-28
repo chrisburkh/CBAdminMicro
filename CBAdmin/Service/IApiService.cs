@@ -18,5 +18,7 @@ namespace CBAdmin.Service
         Task Delete(string id);
 
         void SetBaseUrl(string url);
+
+        Task<String> GetSystemInformation();
     }
 }
