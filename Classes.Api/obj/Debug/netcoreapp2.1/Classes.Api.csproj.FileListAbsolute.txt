@@ -1,3 +1,0 @@
-C:\Users\Burkhardt\source\repos\CBAdmin\Classes.Api\obj\Debug\netcoreapp2.1\Classes.Api.csproj.CoreCompileInputs.cache
-C:\Users\Burkhardt\source\repos\CBAdmin\Classes.Api\obj\Debug\netcoreapp2.1\Classes.Api.AssemblyInfoInputs.cache
-C:\Users\Burkhardt\source\repos\CBAdmin\Classes.Api\obj\Debug\netcoreapp2.1\Classes.Api.AssemblyInfo.cs
